@@ -1,4 +1,4 @@
-# Notes
+# Notes: Crash course
 
 ## Some basic theoretical stuffs
 
