@@ -1,6 +1,6 @@
 # it_automation_w_python_professional
 
-My work and notes for the `Google IT Automation with Python Professional Certificate` Coursera course
+My work and notes for the `Google IT Automation with Python Professional Certificate` Coursera course. Notes are stored within the `notes.md` files and within the `.py` source files.
 
 ## Milestones
 - [x] Crash Course on Python
