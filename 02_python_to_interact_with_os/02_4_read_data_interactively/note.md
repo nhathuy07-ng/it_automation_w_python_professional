@@ -1,0 +1,2 @@
+Extras:
+- The all() function is a built-in Python function that returns True if all elements in a given iterable are truthy, or if the iterable is empty. If even a single element evaluates to False (falsy), it immediately returns False
