@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/huyn/Documents/Learn CS/Automation Course/02_python_to_interact_with_os/02_6_bash/streams.py", line 3, in <module>
+    raise BaseException("this goes to stderr")
+BaseException: this goes to stderr
