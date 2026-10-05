@@ -3,6 +3,7 @@
 - Working tree: current state of the project incl. any changes being made 
 - Staging area: changes marked to include in the next commit
 - Git directory: project config + history of all file changes
+- Newly created files are not tracked until `git add` is first called with it.
 
 # Some git commands
 
@@ -12,5 +13,5 @@
 
 # File states
 - **Modified**: made changes, not committed
-- **Staged**: changes ready for the next commit
-- **Committed**: changes committed to the Git repo
+- **Staged**: changes staged and **ready for the next commit** via `git add`
+- **Committed**: changes committed to the Git repo via `git commit`
