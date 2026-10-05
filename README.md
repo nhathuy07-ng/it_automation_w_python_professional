@@ -8,7 +8,7 @@ Course URL: https://www.coursera.org/professional-certificates/google-it-automat
 
 ## Milestones
 - [x] Crash Course on Python
-- [ ] Using Python to Interact with the OS
+- [x] Using Python to Interact with the OS
 - [ ] Intro to Git and GitHub
 - [ ] Troubleshooting and Debugging Techniques
 - [ ] Config Management and the Cloud
