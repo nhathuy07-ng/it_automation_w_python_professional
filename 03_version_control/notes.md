@@ -23,8 +23,9 @@
 - `git diff --staged`: show changes in staging compared to HEAD.
 
 ## Amend commits
-- `git commit --amend` to perform commit amendment and edit commit message. Works by amending changes in the staging area to the most recent commit.
+- `git commit --amend` to perform changes (file changes and commit message) to the most recent commit. Works by amending changes in the staging area to the most recent commit. Should NOT be used on public commits (w/ multiple collaborators).
 
+- `git revert HEAD`: creates a new commit that cancels out changes in the most recent commit.
 
 # File states
 - **Modified**: made changes, not committed
@@ -32,6 +33,9 @@
 - **Committed**: changes committed to the Git repo via `git commit`
 
 # Anatomy of a commit msg
+
+- Commit ID: SHA1 hash (40 chars) from commit date, author, snapshot of working tree => Each time a commit is **amended**, commit ID is **rehashed**.
+    - To identify a commit, you often only need to type the first n characters of an ID, provided that that string of numbers is unique to one commit.
 
 - Short description of the change (up to 50 chars)
 - <Blank line>
