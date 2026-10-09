@@ -11,6 +11,7 @@
 - `git status`: get status of current brand
 - `git add <file>`: add file(s) to the staging area. use `.` to incl all files in the current working dir.
 - `git commit -m <commit_msg>`: commit file(s) in the staging area to the Git directory with a commit msg.
+- `git commit -a`: commit **tracked** file(s) without staging them. does not do anything with untracked files (those need to be `add`ed first)
 
 # File states
 - **Modified**: made changes, not committed
