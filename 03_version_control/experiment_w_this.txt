@@ -2,8 +2,6 @@ First commit for this file!
 
 This file is tracked, hence, this line was committed using `git commit -a` without adding to staging first.
 
-This is a test.
-
-testing (staging area skipped)
+This is a test (staging area skipped)
 
 hehehe
