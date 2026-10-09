@@ -14,14 +14,17 @@
 - `git commit -m <commit_msg>`: commit file(s) in the staging area to the Git directory with a commit msg.
 - `git commit -a`: commit **tracked** file(s) without staging them. does not do anything with untracked files (those need to be `add`ed first)
 
-## View past commits
+## View past commits & changes
 - `git log`: see list of commits w/ basic metadata
 - `git log -p`: see list of commits with detailed changes for each commit
 - `git log --stat`: see list of commits w/ number of files changed, insertions and deletions.
 - `git show <id>`: show changes by commit ID
-
 - `git diff`: show changes to tracked but unstaged files compared to staged.
 - `git diff --staged`: show changes in staging compared to HEAD.
+
+## Amend commits
+- `git commit --amend` to perform commit amendment and edit commit message. Works by amending changes in the staging area to the most recent commit.
+
 
 # File states
 - **Modified**: made changes, not committed
