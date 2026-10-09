@@ -7,11 +7,21 @@
 
 # Some git commands
 
+## Initialize repo, stage and commit changes
 - `git init`: create a new git repo in the CWD
 - `git status`: get status of current brand
 - `git add <file>`: add file(s) to the staging area. use `.` to incl all files in the current working dir.
 - `git commit -m <commit_msg>`: commit file(s) in the staging area to the Git directory with a commit msg.
 - `git commit -a`: commit **tracked** file(s) without staging them. does not do anything with untracked files (those need to be `add`ed first)
+
+## View past commits
+- `git log`: see list of commits w/ basic metadata
+- `git log -p`: see list of commits with detailed changes for each commit
+- `git log --stat`: see list of commits w/ number of files changed, insertions and deletions.
+- `git show <id>`: show changes by commit ID
+
+- `git diff`: show changes to tracked files (unstaged) vs HEAD.
+- `git diff --staged`: show changes in the staging area.
 
 # File states
 - **Modified**: made changes, not committed
