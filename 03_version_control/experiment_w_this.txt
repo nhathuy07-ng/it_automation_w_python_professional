@@ -4,4 +4,4 @@ This file is tracked, hence, this line was committed using `git commit -a` witho
 
 This is a test.
 
-testing (unstaged)
+testing (skips staging)
