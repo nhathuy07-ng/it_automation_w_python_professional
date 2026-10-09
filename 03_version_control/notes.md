@@ -20,8 +20,8 @@
 - `git log --stat`: see list of commits w/ number of files changed, insertions and deletions.
 - `git show <id>`: show changes by commit ID
 
-- `git diff`: show changes to tracked files (unstaged) vs HEAD.
-- `git diff --staged`: show changes in the staging area.
+- `git diff`: show changes to tracked but unstaged files compared to staged.
+- `git diff --staged`: show changes in staging compared to HEAD.
 
 # File states
 - **Modified**: made changes, not committed
