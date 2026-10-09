@@ -1,1 +1,3 @@
 First commit for this file!
+
+This file is tracked, hence, this line was committed using `git commit -a` without adding to staging first.
