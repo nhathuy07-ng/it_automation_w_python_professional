@@ -26,6 +26,10 @@
 - `git commit --amend` to perform changes (file changes and commit message) to the most recent commit. Works by amending changes in the staging area to the most recent commit. Should NOT be used on public commits (w/ multiple collaborators).
 
 - `git revert HEAD`: creates a new commit that cancels out changes in the most recent commit.
+- `git revert <commit-hash>`: same thing, but for a particular commit
+
+> [!IMPORTANT]
+> If later commits modified, moved or deleted the exact same lines of code in the commit-to-be-reversed, **conflict occurs**. Git will pause the operation, marks the conflicting files and leaves conflict markers in the code.
 
 # File states
 - **Modified**: made changes, not committed
