@@ -31,6 +31,12 @@
 > [!IMPORTANT]
 > If later commits modified, moved or deleted the exact same lines of code in the commit-to-be-reversed, **conflict occurs**. Git will pause the operation, marks the conflicting files and leaves conflict markers in the code.
 
+## Branching
+
+- `git branch branch-name`: create new branch, but DOES NOT transition to this branch
+- `git checkout branch-name`: change worktree to the latest snapshot of the target branch `branch-name`
+- `git checkout -b branch-name`: create new branch, then change worktree to latest snapshot of the target branch `branch-name` 
+
 # File states
 - **Modified**: made changes, not committed
 - **Staged**: changes staged and **ready for the next commit** via `git add`
