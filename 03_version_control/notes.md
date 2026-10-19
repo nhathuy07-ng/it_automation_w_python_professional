@@ -36,6 +36,7 @@
 - `git branch branch-name`: create new branch, but DOES NOT transition to this branch
 - `git checkout branch-name`: change worktree to the latest snapshot of the target branch `branch-name`
 - `git checkout -b branch-name`: create new branch, then change worktree to latest snapshot of the target branch `branch-name` 
+- `git branch -d branch-name`: deletes branch `branch-name`
 
 # File states
 - **Modified**: made changes, not committed
