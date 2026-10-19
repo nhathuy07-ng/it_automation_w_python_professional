@@ -38,6 +38,15 @@
 - `git checkout -b branch-name`: create new branch, then change worktree to latest snapshot of the target branch `branch-name` 
 - `git branch -d branch-name`: deletes branch `branch-name`
 
+## Merging
+
+- `git merge branch-name`: merge branch `branch-name` to the current branch:
+    - fast-forward merging: when there's no new commits on original branch since the new branch is created.
+    - three-way merging:
+        - When there are new commits on original branch since the new branch is created.
+        - Three-way merging done based on common ancestor of the two branches. 
+        - If the same part of the file is modified on both branches, a **merge conflict** occur.
+
 # File states
 - **Modified**: made changes, not committed
 - **Staged**: changes staged and **ready for the next commit** via `git add`
