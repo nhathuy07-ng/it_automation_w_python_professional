@@ -1,4 +1,6 @@
+import psutil
+
 def main():
-    """Checks if there's enough free memory in the computer"""
+    print(psutil.virtual_memory().free / 1024**3)
 
 main()
