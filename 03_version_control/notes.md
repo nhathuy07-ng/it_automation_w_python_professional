@@ -105,3 +105,9 @@ D---E---F---G (main)
 - Each pull request is pointed to a branch. Just make changes in that branch, commit & push the changes to the remote repo. The commit will be included in the same PR.
 
 - To create a new PR, create a new branch.
+
+## Squashing changes
+
+- Use `git rebase -i <remote>` for interactive rebasing.
+
+- If rewriting history is needed (should be done in personal PRs only), use `git push -f` to force updates.
