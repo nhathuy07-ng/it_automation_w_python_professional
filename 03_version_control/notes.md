@@ -108,6 +108,8 @@ D---E---F---G (main)
 
 ## Squashing changes
 
-- Use `git rebase -i <remote>` for interactive rebasing.
+- Meld the selected commit with the previous one.
 
-- If rewriting history is needed (should be done in personal PRs only), use `git push -f` to force updates.
+- Use `git rebase -i <remote>` for interactive rebasing (incl. squashing and other ops).
+
+- If rewriting history is needed (i.e, due to squashing commits, should be done in personal PRs only), use `git push -f` to force push the current snapshot to the repo.
