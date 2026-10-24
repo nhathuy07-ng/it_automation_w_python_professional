@@ -93,3 +93,15 @@ D---E---F---G (main)
     - What changed? Why?
     - Issues/tickets resolved?
     - etc.
+
+# Collaborating on Git
+
+## Making a pull request (PR).
+
+> This should be simple enough.
+
+## Updating existing PRs:
+
+- Each pull request is pointed to a branch. Just make changes in that branch, commit & push the changes to the remote repo. The commit will be included in the same PR.
+
+- To create a new PR, create a new branch.
