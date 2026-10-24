@@ -52,6 +52,31 @@
 - `git fetch <remote>`: fetches updates from the current or default remote only, usually `origin`
 - `git remote update`: fetches updates from all configured remotes at once.
 
+## Rebasing changes
+
+- Changing the base of the branch history by replaying them on top of the new base (i.e the HEAD of the chosen branch to rebase on)
+
+- Simply put, rebasing lifts the commits off their common ancestor with the chosen branch and replays them on the HEAD of that branch.
+
+```plaintext
+Before Rebase:
+      A---B---C (feature)
+     /
+D---E---F---G (main)
+
+After Rebase:
+              A'--B'--C' (feature)
+             /
+D---E---F---G (main)
+```
+
+- Do this if a linear commit history is desired, for example, in case we want to trace which commit initially caused problems (if any) in our project.
+
+- Command: `git rebase <branch>`
+
+> [!IMPORTANT]
+> Never rebase shared branches, because doing so "rewrites" the branch history, and Git servers rejects pushes that alter the remote history. If you force the change, anyone working on that branch can encounter severe merge conflicts on their next pulls.
+
 # File states
 - **Modified**: made changes, not committed
 - **Staged**: changes staged and **ready for the next commit** via `git add`
