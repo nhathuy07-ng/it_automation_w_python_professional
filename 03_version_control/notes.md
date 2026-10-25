@@ -113,3 +113,7 @@ D---E---F---G (main)
 - Use `git rebase -i <remote>` for interactive rebasing (incl. squashing and other ops).
 
 - If rewriting history is needed (i.e, due to squashing commits, should be done in personal PRs only), use `git push -f` to force push the current snapshot to the repo.
+
+## Closing Issues automatically using a commit
+
+- Add `Closes #<issue_id>` to the commit message.
